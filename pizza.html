@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pizza Recipe</title>
+  <style>
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+
+header {
+  background-color: #ff6f61; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+
+main {
+  padding: 20px;
+}
+
+
+.recipe-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px; 
+}
+
+.recipe-text {
+  flex: 1; 
+}
+
+
+.recipe-image img {
+  max-width: 700px; 
+  width: 100%; 
+  height: auto; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+.recipe-image img:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);  
+  transform: translateY(-10px);
+}
+
+.recipe h2 {
+  font-size: 1.8em;
+  color: #ff6f61;
+}
+
+
+.recipe ul, .recipe ol {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.recipe ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.recipe ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.recipe p {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  color: #ff6f61;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1em;
+}
+
+
+  </style>
+</head>
+  <body>
+    <header>
+      <h1>Recipe for Delicious Pizza</h1>
+    </header>
+  
+    <main>
+      <section class="recipe">
+        <div class="recipe-content">
+          <div class="recipe-text">
+            <h2>Ingredients</h2>
+            <ul>
+              <li>1 package (about 1 lb) pizza dough (store-bought or homemade)</li>
+              <li>1/2 cup pizza sauce</li>
+              <li>1 1/2 cups shredded mozzarella cheese</li>
+              <li>Toppings of choice (pepperoni, veggies, etc.)</li>
+            </ul>
+  
+            <h2>Instructions</h2>
+            <ol>
+              <li>Preheat oven to 475°F (245°C).</li>
+              <li>Roll out dough on a floured surface into a circle or rectangle.</li>
+              <li>Spread sauce evenly over the dough.</li>
+              <li>Top with cheese and your favorite toppings.</li>
+              <li>Bake for 10-12 minutes, until the crust is golden and cheese is melted.</li>
+              <li>Slice and serve!</li>
+            </ol>
+            <p>ENJOY YOUR PIZZA!</p>
+          </div>
+          
+          <div class="recipe-image">
+            <img src="pizzaimg.jpg" alt="Delicious Pizza" />
+          </div>
+        </div>
+      </section>
+    </main>
+  
+    <footer>
+      <p>&copy; 2024 Pizza Recipe Website</p>
+    </footer>
+  </body>
+</html>
